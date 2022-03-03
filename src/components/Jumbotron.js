@@ -4,7 +4,7 @@ export default function Jumbotron() {
 	return (
 		<figure className="hero d-flex justify-content-center">
 			<img
-				src="./images/headshot-01-small.jpeg"
+				src={'/assets/images/headshot.jpeg'}
 				alt="A headshot of Alex Widener"
 			/>
 			<article className="hero-content">
