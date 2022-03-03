@@ -1,11 +1,28 @@
 // Import components here
-import Navigation from './components/Navigation';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+// change these to mail and phone
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Navbar from './components/Navbar';
+import Jumbotron from './components/Jumbotron';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+
+// Make icons available across files
+library.add(fab, faEnvelope, faPhone);
 
 function App() {
 	return (
 		<div className="App">
-			<Navigation />
+			<Navbar />
+			<Jumbotron />
+			<About />
+			<Projects />
+			<Skills />
+			<Contact />
 		</div>
 	);
 }
