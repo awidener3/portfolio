@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Skills() {
 	return (
-		<div className="container d-flex">
+		<div id="skills" className="container d-flex">
 			<h2 className="pe-3 border-end col-2 text-end">Skills</h2>
 			<div className="section-content container-fluid d-flex justify-content-center">
 				<FontAwesomeIcon

@@ -1,7 +1,7 @@
 import React from 'react';
-import chronicler from './chronicler_preview.png';
-import weatherDashboard from './weather-dashboard-preview.png';
-import techBlog from './tech-blog-preview.png';
+import chronicler from './chronicler-preview-small.png';
+import weatherDashboard from './weather-dashboard-small.png';
+import techBlog from './tech-blog-small.png';
 import restaurantPage from './restaurant-page-preview.png';
 import fourStor from './fourstor-preview.png';
 import odinLibrary from './library-preview.png';
@@ -10,7 +10,7 @@ import ProjectCard from './ProjectCard';
 
 export default function Projects() {
 	return (
-		<section id="projects" className="container section d-flex">
+		<section id="projects" className="container d-flex">
 			<h2 className="pe-3 border-end col-2 text-end">Projects</h2>
 
 			<div className="section-content container-fluid d-flex flex-wrap">
@@ -76,11 +76,6 @@ export default function Projects() {
 					img={teamProfile}
 					alt="preview of a team profile generator"
 				/>
-
-				<p>
-					Click on project image for a live preview of the
-					application, or the title for the GitHub repo!
-				</p>
 			</div>
 		</section>
 	);
