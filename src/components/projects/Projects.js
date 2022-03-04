@@ -21,6 +21,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/xndrbrgs/the_chronicler"
 					img={chronicler}
 					alt="a preview of The Chronicler"
+					isNew="true"
 				/>
 
 				<ProjectCard
@@ -30,6 +31,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/awidener3/weather-dashboard"
 					img={weatherDashboard}
 					alt="a preview of a weather dashboard project"
+					isNew="false"
 				/>
 
 				<ProjectCard
@@ -39,6 +41,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/awidener3/tech-blog"
 					img={techBlog}
 					alt="preview of a tech blog application"
+					isNew="false"
 				/>
 
 				<ProjectCard
@@ -48,6 +51,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/awidener3/restaurant-page"
 					img={restaurantPage}
 					alt="a preview of a restaurant website project"
+					isNew="false"
 				/>
 
 				<ProjectCard
@@ -57,6 +61,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/pr1me-e1gh7/fourstor"
 					img={fourStor}
 					alt="preview of fourStor"
+					isNew="false"
 				/>
 
 				<ProjectCard
@@ -66,6 +71,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/awidener3/odin-library"
 					img={odinLibrary}
 					alt="a preview of a library project"
+					isNew="false"
 				/>
 
 				<ProjectCard
@@ -75,6 +81,7 @@ export default function Projects() {
 					gitHubUrl="https://github.com/awidener3/team-profile-generator"
 					img={teamProfile}
 					alt="preview of a team profile generator"
+					isNew="false"
 				/>
 			</div>
 		</section>

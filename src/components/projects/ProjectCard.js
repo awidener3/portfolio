@@ -8,9 +8,14 @@ export default function ProjectCard({
 	gitHubUrl,
 	img,
 	alt,
+	isNew,
 }) {
 	return (
+		// <div className="m-4 custom-card">
 		<div className="m-4 custom-card">
+			<div className={isNew === 'true' ? 'ribbon ribbon-top-right' : ''}>
+				<span>New</span>
+			</div>
 			<a href={liveUrl} target="_blank" rel="noreferrer">
 				<img className="card-image" src={img} alt={alt} />
 			</a>
