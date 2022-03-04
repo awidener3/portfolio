@@ -10,19 +10,16 @@ export default function Skills() {
 					icon={['fab', 'js-square']}
 					size="4x"
 					className="p-2"
-					style={{ background: 'yellow' }}
 				/>
 				<FontAwesomeIcon
 					icon={['fab', 'react']}
 					size="4x"
 					className="p-2"
-					style={{ background: 'cyan' }}
 				/>
 				<FontAwesomeIcon
 					icon={['fab', 'node-js']}
 					size="4x"
 					className="p-2"
-					style={{ background: 'green' }}
 				/>
 			</div>
 		</div>
