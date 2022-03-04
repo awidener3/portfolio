@@ -1,0 +1,65 @@
+.nav-title {
+	font-family: 'Staatliches', cursive;
+	font-size: 3rem;
+}
+
+.custom-nav-link {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #e7e7e7;
+	transition: 0.2s ease;
+}
+
+.link-active {
+	background-color: #e7e7e7;
+	border-radius: 4px;
+	color: #232323 !important;
+}
+
+.custom-nav-link:visited {
+	color: #e7e7e7;
+}
+
+.side-nav {
+	height: 100%;
+	width: 20rem;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #232323;
+	transition: 0.5s ease;
+	overflow-x: hidden;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1790px) {
+	.side-nav {
+		width: 15rem;
+		padding-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.custom-nav-link {
+		display: inline;
+	}
+
+	.side-nav {
+		height: 10rem;
+		width: 100%;
+		padding-top: 20px;
+		flex-direction: row;
+	}
+
+	.side-nav-footer {
+		display: none;
+	}
+}

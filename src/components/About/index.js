@@ -2,12 +2,9 @@ import React from 'react';
 
 export default function About() {
 	return (
-		<section
-			id="about"
-			className="container my-2 d-flex justify-content-center"
-		>
-			<h2 className="col-2 border-end pe-3 text-end">About Me</h2>
-			<article className="ps-3">
+		<div className="container-fluid">
+			<h2 className="pe-3 border-end text-end me-5">About Me</h2>
+			<div className="ps-3 container">
 				<p>
 					I am a web developer passionate about creating meaningful
 					and high quality applications. Recently earned a certificate
@@ -46,7 +43,7 @@ export default function About() {
 					effectively solve problems and continue to grow as a
 					developer, would make me a strong addition to any team.
 				</p>
-			</article>
-		</section>
+			</div>
+		</div>
 	);
 }

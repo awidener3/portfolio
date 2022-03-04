@@ -1,19 +1,20 @@
 import React from 'react';
-import chronicler from './chronicler-preview-small.png';
-import weatherDashboard from './weather-dashboard-small.png';
-import techBlog from './tech-blog-small.png';
-import restaurantPage from './restaurant-page-preview.png';
-import fourStor from './fourstor-preview.png';
-import odinLibrary from './library-preview.png';
-import teamProfile from './team-profile-generator-preview.png';
+import chronicler from '../../assets/images/chronicler-small.png';
+import weatherDashboard from '../../assets/images/weather-dashboard-small.png';
+import techBlog from '../../assets/images/tech-blog-small.png';
+import restaurantPage from '../../assets/images/restaurant-page-preview.png';
+import fourStor from '../../assets/images/fourstor-preview.png';
+import odinLibrary from '../../assets/images/library-preview.png';
+import teamProfile from '../../assets/images/team-profile-generator-preview.png';
 import ProjectCard from './ProjectCard';
 
 export default function Projects() {
 	return (
-		<section id="projects" className="container d-flex">
-			<h2 className="pe-3 border-end col-2 text-end">Projects</h2>
+		<div className="container-fluid">
+			<h2 className="pe-3 border-end text-end me-5">Projects</h2>
 
 			<div className="section-content container-fluid d-flex flex-wrap">
+				{/* Chronicler */}
 				<ProjectCard
 					title="The Chronicler"
 					languages="MySQL, Handlebars, NodeJS"
@@ -23,7 +24,7 @@ export default function Projects() {
 					alt="a preview of The Chronicler"
 					isNew="true"
 				/>
-
+				{/* Weather Dash */}
 				<ProjectCard
 					title="Weather Dashboard"
 					languages="JavaScript"
@@ -33,7 +34,7 @@ export default function Projects() {
 					alt="a preview of a weather dashboard project"
 					isNew="false"
 				/>
-
+				{/* Tech Blog */}
 				<ProjectCard
 					title="Tech Blog"
 					languages="JavaScript, SQL, MVC"
@@ -43,7 +44,7 @@ export default function Projects() {
 					alt="preview of a tech blog application"
 					isNew="false"
 				/>
-
+				{/* Restaurant Page */}
 				<ProjectCard
 					title="Restaurant Page"
 					languages="JavaScript, NodeJS, Webpack"
@@ -53,7 +54,7 @@ export default function Projects() {
 					alt="a preview of a restaurant website project"
 					isNew="false"
 				/>
-
+				{/* fourSTOR */}
 				<ProjectCard
 					title="fourSTOR"
 					languages="JavaScript, Foundations"
@@ -63,7 +64,7 @@ export default function Projects() {
 					alt="preview of fourStor"
 					isNew="false"
 				/>
-
+				{/* Odin's Library */}
 				<ProjectCard
 					title="Odin's Library"
 					languages="HTML, CSS, JavaScript"
@@ -73,7 +74,7 @@ export default function Projects() {
 					alt="a preview of a library project"
 					isNew="false"
 				/>
-
+				{/* Team Profile Generator */}
 				<ProjectCard
 					title="Team Profile Generator"
 					languages="JavaScript, Inquirer, Jest"
@@ -84,6 +85,6 @@ export default function Projects() {
 					isNew="false"
 				/>
 			</div>
-		</section>
+		</div>
 	);
 }
