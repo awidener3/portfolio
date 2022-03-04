@@ -7,7 +7,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import Navbar from './components/navbar/Navbar';
 import Jumbotron from './components/jumbotron/Jumbotron';
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects from './components/projects/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 

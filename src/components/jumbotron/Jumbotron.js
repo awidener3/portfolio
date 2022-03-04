@@ -4,7 +4,7 @@ import './jumbotron.css';
 
 export default function Jumbotron() {
 	return (
-		<div className="d-flex justify-content-center align-items-center">
+		<div className="d-flex justify-content-center align-items-center jumbotron-container border-bottom border-top">
 			<img
 				className="jumbotron-img m-4"
 				src={headshot}
