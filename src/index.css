@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Staatliches&display=swap');
 
+html {
+	height: 100vh;
+}
+
 body {
 	margin: 0;
 	font-family: 'Space Grotesk', sans-serif;
 	color: #e7e7e7;
 	/* background-color: #e7e6d8; */
 	background-color: #1e1e1e;
+	height: 100%;
+}
+
+#root {
+	height: 100%;
 }

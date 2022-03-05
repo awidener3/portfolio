@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import Sidenav from './Sidenav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './container.css';
 
 export default function PortfolioContainer() {
 	const [currentPage, setCurrentPage] = useState('Projects');
@@ -28,15 +29,17 @@ export default function PortfolioContainer() {
 	const handlePageChange = (page) => setCurrentPage(page);
 
 	return (
-		<div>
-			<div className="d-flex">
-				<div className="col-2">
+		<div className="wrapper">
+			<div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column vh-100">
+				<div>
 					<Sidenav
 						currentPage={currentPage}
 						handlePageChange={handlePageChange}
 					/>
 				</div>
-				<div className="mt-5 col-10">{renderPage()}</div>
+				<div className="container-fluid mt-lg-5 mt-3">
+					{renderPage()}
+				</div>
 			</div>
 		</div>
 	);

@@ -16,12 +16,14 @@ const days = [
 export default function Sidenav({ currentPage, handlePageChange }) {
 	return (
 		<nav className="side-nav">
-			<div className="container-fluid mt-5">
+			<div className="container-fluid">
 				{/* header */}
-				<h2 className="nav-title text-center pb-3">Alex Widener</h2>
+				<h2 className="nav-title text-center pb-lg-3 pb-0">
+					Alex Widener
+				</h2>
 
 				{/* links */}
-				<ul className="text-center px-0 pt-3">
+				<ul className="d-flex flex-lg-column flex-row justify-content-center flex-wrap text-center px-0 pt-lg-3 pt-0">
 					<a
 						className={
 							currentPage === 'Projects'
