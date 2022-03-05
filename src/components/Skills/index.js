@@ -21,11 +21,16 @@ export default function Skills() {
 				{/* Database/Tools */}
 				<h3 className="skill-header">Databases & Tools</h3>
 				<p className="mb-5 skill-text">
-					Node.js / MongoDB / MySQL / Heroku / DBeaver / Insomnia /
-					Postman
+					Node.js / MongoDB / MySQL / NoSQL / Heroku / DBeaver /
+					Insomnia / Postman / Sequelize
 				</p>
 
-				<button className="btn btn-primary">Resume</button>
+				<button className="mt-5 btn custom-btn btn-lg">
+					Download Resume{' '}
+					<FontAwesomeIcon
+						icon={'arrow-up-right-from-square'}
+					></FontAwesomeIcon>
+				</button>
 
 				{/* <div>
 					<FontAwesomeIcon

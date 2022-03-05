@@ -1,11 +1,12 @@
 import React from 'react';
+import './about.css';
 
 export default function About() {
 	return (
 		<div className="container-fluid">
-			<h2 className="pe-3 border-end text-end me-5">About Me</h2>
-			<div className="ps-3 container">
-				<p>
+			<h2 className="pe-3 border-end text-end me-5 mb-5">About Me</h2>
+			<div className="container">
+				<p className="about-text">
 					I am a web developer passionate about creating meaningful
 					and high quality applications. Recently earned a certificate
 					in Full Stack Web Development from the{' '}
@@ -13,6 +14,7 @@ export default function About() {
 						href="https://bootcamp.ce.ucf.edu/coding/"
 						target="_blank"
 						rel="noreferrer"
+						className="custom-paragraph-link"
 					>
 						University of Central Florida
 					</a>
@@ -23,6 +25,7 @@ export default function About() {
 						href="https://thechronicler.herokuapp.com/"
 						target="_blank"
 						rel="noreferrer"
+						className="custom-paragraph-link"
 					>
 						application
 					</a>{' '}
@@ -31,7 +34,7 @@ export default function About() {
 					working on a project that streamlines complicated game
 					mechanics into an easy-to-use app.
 				</p>
-				<p>
+				<p className="about-text">
 					With a background of 5 years as a Music Educator teaching
 					7th and 8th grade, I bring a unique point of view when
 					working with teams and always seek out the most organized

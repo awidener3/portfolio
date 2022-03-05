@@ -12,6 +12,16 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
+}
+
+.side-nav-img {
+	height: 175px;
+	width: 175px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+	box-shadow: 5px 5px 15px #00000054;
 }
 
 .nav-title {
@@ -31,6 +41,16 @@
 	padding: 1rem;
 }
 
+.custom-nav-link:hover {
+	background-color: #b1b1b138;
+	border-radius: 4px;
+}
+
+.custom-nav-link:active {
+	background-color: #2eb3b8;
+	border-radius: 4px;
+}
+
 .link-active {
 	background-color: #e7e7e7;
 	border-radius: 4px;
@@ -42,6 +62,10 @@
 }
 
 @media only screen and (max-width: 992px) {
+	.side-nav-img {
+		display: none;
+	}
+
 	.custom-nav-link {
 		display: inline;
 		font-size: 1rem;

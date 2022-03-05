@@ -16,3 +16,11 @@ body {
 #root {
 	height: 100%;
 }
+
+.custom-paragraph-link {
+	color: #2eb3b8;
+}
+
+.custom-paragraph-link:hover {
+	color: #ffffff;
+}

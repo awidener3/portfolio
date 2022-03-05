@@ -1,14 +1,46 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './contact.css';
 
 export default function Contact() {
 	return (
-		<section id="contact" className="container section d-flex flex-center">
-			<h2 className="col-2 section-title border-end pe-3 text-end">
-				Contact
-			</h2>
+		<div className="container-fluid">
+			<h2 className="pe-3 border-end text-end me-5">Contact</h2>
 
-			<article className="section-content container-fluid d-flex justify-content-center">
+			<div className="container my-5 p-3 border-bottom">
+				<h3 className="display-5">Let's Get in Touch!</h3>
+				<p className="lead">
+					Thank you for looking through my portfolio! I hope you found
+					things that proved that I am willing to put in hard work and
+					am committed to learning new technologies to create
+					innovative and creative applications.
+				</p>
+				<p>
+					If you'd like to reach me, send me an email at{' '}
+					<a
+						href="mailto:awidener3@gmail.com"
+						target="_blank"
+						rel="noreferrer"
+						title="awidener3@gmail.com"
+						className="custom-paragraph-link"
+					>
+						awidener3@gmail.com
+					</a>{' '}
+					or give me a call or text at{' '}
+					<a
+						href="tel:321-271-5102"
+						target="_blank"
+						rel="noreferrer"
+						title="(321) 271-5102"
+						className="custom-paragraph-link"
+					>
+						(321) 271-5102
+					</a>
+					.
+				</p>
+			</div>
+
+			<div className="section-content container d-flex justify-content-center">
 				{/* Github link */}
 				<a
 					href="https://www.github.com/awidener3"
@@ -19,7 +51,7 @@ export default function Contact() {
 					<FontAwesomeIcon
 						icon={['fab', 'github']}
 						size="3x"
-						className="p-2 mx-2"
+						className="p-2 mx-2 text-light custom-icon"
 					/>
 				</a>
 
@@ -33,7 +65,7 @@ export default function Contact() {
 					<FontAwesomeIcon
 						icon={['fab', 'twitter']}
 						size="3x"
-						className="p-2 mx-2"
+						className="p-2 mx-2 text-light custom-icon"
 					/>
 				</a>
 
@@ -47,7 +79,7 @@ export default function Contact() {
 					<FontAwesomeIcon
 						icon={['fab', 'linkedin-in']}
 						size="3x"
-						className="p-2 mx-2"
+						className="p-2 mx-2 text-light custom-icon"
 					/>
 				</a>
 
@@ -61,7 +93,7 @@ export default function Contact() {
 					<FontAwesomeIcon
 						icon={'envelope'}
 						size="3x"
-						className="p-2 mx-2"
+						className="p-2 mx-2 text-light custom-icon"
 					/>
 				</a>
 
@@ -75,10 +107,10 @@ export default function Contact() {
 					<FontAwesomeIcon
 						icon={'phone'}
 						size="3x"
-						className="p-2 mx-2"
+						className="p-2 mx-2 text-light custom-icon"
 					/>
 				</a>
-			</article>
-		</section>
+			</div>
+		</div>
 	);
 }
