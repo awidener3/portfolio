@@ -13,12 +13,17 @@ export default function Skills() {
 					<SkillItem skill={skill} key={index} />
 				))}
 
-				<button className="my-5 btn custom-btn btn-lg">
+				<a
+					className="my-5 btn custom-btn btn-lg"
+					href="https://docs.google.com/document/d/1UNOGbpRp7wsYDBDF5ZlvdlvTWBT690_hJBCsWhINL24/edit?usp=sharing"
+					target="_blank"
+					rel="noreferrer"
+				>
 					Download Resume{' '}
 					<FontAwesomeIcon
 						icon={'arrow-up-right-from-square'}
 					></FontAwesomeIcon>
-				</button>
+				</a>
 			</div>
 		</div>
 	);
