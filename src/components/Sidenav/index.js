@@ -1,6 +1,5 @@
 import React from 'react';
 import './sidenav.css';
-import headshot from '../../assets/images/headshot.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const date = new Date();
@@ -18,17 +17,18 @@ export default function Sidenav({ currentPage, handlePageChange }) {
 	return (
 		<nav className="side-nav">
 			<div className="container-fluid text-center">
+				{/* Headshot */}
 				<img
-					src={headshot}
+					src="https://i.imgur.com/x6s2oAj.jpg"
 					alt="Headshot of Alex Widener"
 					className="side-nav-img mb-4"
 				/>
-				{/* header */}
+				{/* Sidenav heading */}
 				<h2 className="nav-title text-center pb-lg-3 pb-0">
 					Alex Widener
 				</h2>
 
-				{/* links */}
+				{/* Sidenav links */}
 				<ul className="d-flex flex-lg-column flex-row justify-content-center flex-wrap text-center px-0 pt-lg-3 pt-0">
 					<a
 						className={

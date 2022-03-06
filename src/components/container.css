@@ -1,13 +1,13 @@
-.wrapper {
-	height: 100%;
+.page-content {
+	width: 100%;
+	margin-top: 4rem;
+	margin-right: 4rem;
+	margin-left: 20rem;
 }
 
-.container-content {
-	margin-top: 2rem;
-}
-
-/* @media only screen and (max-width: 1200px) {
-	.container-content {
-		margin-top: 13rem;
+@media only screen and (max-width: 992px) {
+	.page-content {
+		margin-top: 12rem;
+		margin-left: 0;
 	}
-} */
+}
