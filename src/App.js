@@ -7,11 +7,24 @@ import {
 	faEnvelope,
 	faPhone,
 	faArrowUpRightFromSquare,
+	faLaptopCode,
+	faServer,
+	faToolbox,
+	faLightbulb,
 } from '@fortawesome/free-solid-svg-icons';
 import PortfolioContainer from './components/PortfolioContainer';
 
 // Make icons available across files
-library.add(fab, faEnvelope, faPhone, faArrowUpRightFromSquare);
+library.add(
+	fab,
+	faEnvelope,
+	faPhone,
+	faArrowUpRightFromSquare,
+	faLaptopCode,
+	faServer,
+	faToolbox,
+	faLightbulb
+);
 
 function App() {
 	return <PortfolioContainer />;
