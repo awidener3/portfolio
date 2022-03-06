@@ -1,21 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.ced4435d.css",
-    "main.js": "/portfolio-react/static/js/main.c7e5df3b.js",
-    "static/media/fourstor-preview.png": "/portfolio-react/static/media/fourstor-preview.492a941fb0c574f98127.png",
-    "static/media/restaurant-page-preview.png": "/portfolio-react/static/media/restaurant-page-preview.c9bdce9dab8c7c8ef350.png",
-    "static/media/headshot.jpeg": "/portfolio-react/static/media/headshot.7950a9c36b306e7dabda.jpeg",
-    "static/media/chronicler-small.png": "/portfolio-react/static/media/chronicler-small.1c604cad1d0a17b1ef0f.png",
-    "static/media/library-preview.png": "/portfolio-react/static/media/library-preview.68bff819091c5a2529d4.png",
-    "static/media/weather-dashboard-small.png": "/portfolio-react/static/media/weather-dashboard-small.27dc8c5035902e98a797.png",
-    "static/media/team-profile-generator-preview.png": "/portfolio-react/static/media/team-profile-generator-preview.4aec8f35b2ff2a687af4.png",
-    "static/media/tech-blog-small.png": "/portfolio-react/static/media/tech-blog-small.0ce0bceff930c95a86d3.png",
+    "main.css": "/portfolio-react/static/css/main.61733ec6.css",
+    "main.js": "/portfolio-react/static/js/main.16ff3e1f.js",
     "index.html": "/portfolio-react/index.html",
-    "main.ced4435d.css.map": "/portfolio-react/static/css/main.ced4435d.css.map",
-    "main.c7e5df3b.js.map": "/portfolio-react/static/js/main.c7e5df3b.js.map"
+    "main.61733ec6.css.map": "/portfolio-react/static/css/main.61733ec6.css.map",
+    "main.16ff3e1f.js.map": "/portfolio-react/static/js/main.16ff3e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced4435d.css",
-    "static/js/main.c7e5df3b.js"
+    "static/css/main.61733ec6.css",
+    "static/js/main.16ff3e1f.js"
   ]
 }
