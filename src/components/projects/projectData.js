@@ -9,6 +9,15 @@ export const projectData = [
 		isNew: true,
 	},
 	{
+		title: 'Text Editor',
+		languages: 'JavaScript, Webpack, IndexedDB, Node.js, Express',
+		liveUrl: 'https://awidener3-jate.herokuapp.com/',
+		gitHubUrl: 'https://github.com/awidener3/text-editor',
+		img: 'https://i.imgur.com/VpOo5hf.png',
+		alt: 'A preview of a text-editor, a PWA created with webpack',
+		isNew: true,
+	},
+	{
 		title: 'Tech Blog',
 		languages: 'JavaScript, SQL, MVC',
 		liveUrl: 'https://awidener-tech-blog.herokuapp.com/',
@@ -24,6 +33,15 @@ export const projectData = [
 		gitHubUrl: 'https://github.com/pr1me-e1gh7/fourstor',
 		img: 'https://i.imgur.com/BsTHxkt.png',
 		alt: 'A preview of fourSTOR, an application utilizing the Yelp! API to retrieve four random businesses based on category in your area',
+		isNew: false,
+	},
+	{
+		title: 'Social Network API',
+		languages: 'JavaScript, Express, MongoDB',
+		liveUrl: 'https://github.com/awidener3/social-network-api',
+		gitHubUrl: 'https://github.com/awidener3/social-network-api',
+		img: 'https://i.imgur.com/carWec6.png',
+		alt: 'A preview of a social network API, created to simulate an app that allows users to post thoughts, reactions and have friends within the app',
 		isNew: false,
 	},
 	{
