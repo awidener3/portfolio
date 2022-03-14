@@ -1,3 +1,4 @@
+/* Card components */
 .custom-card {
 	width: 250px;
 	height: 350px;
@@ -8,24 +9,13 @@
 	transition: 0.2s ease;
 }
 
-.custom-card:hover {
-	transform: scale(1.03);
+.custom-card:hover .custom-card-title {
+	display: none;
+	animation: fadeOut 1s;
 }
 
 .custom-card:hover .custom-card-text {
 	animation: grow 2s infinite;
-}
-
-@keyframes grow {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.1);
-	}
-	100% {
-		transform: scale(1);
-	}
 }
 
 .custom-card-text {
@@ -39,6 +29,7 @@
 .custom-card-title {
 	font-size: 18px;
 	margin: 0;
+	color: #1e1e1e;
 }
 
 .custom-card-link {
@@ -57,7 +48,23 @@
 	text-decoration: none;
 }
 
-/* common */
+/* Hide/show */
+
+.hide {
+	display: none;
+	transition: display 0.2s ease;
+}
+
+.custom-card:hover {
+	transform: scale(1.03);
+}
+
+.custom-card:hover .hide {
+	display: block;
+	animation: fadeIn 1s;
+}
+
+/* New ribbon */
 .ribbon {
 	width: 150px;
 	height: 150px;
@@ -86,7 +93,6 @@
 	text-align: center;
 }
 
-/* top right*/
 .ribbon-top-right {
 	top: -10px;
 	right: -10px;
@@ -108,4 +114,36 @@
 	left: -25px;
 	top: 30px;
 	transform: rotate(45deg);
+}
+
+/* Animations */
+
+@keyframes grow {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.03);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
