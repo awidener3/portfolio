@@ -1,5 +1,14 @@
 export const projectData = [
 	{
+		title: 'Lyfe',
+		languages: 'MERN, GraphQL, Apollo, GSAP',
+		liveUrl: 'https://lyfe22.herokuapp.com/',
+		gitHubUrl: 'https://github.com/labrecquemegan/lyfe',
+		img: 'https://i.imgur.com/XKbP5py.png',
+		alt: 'A preview of Lyfe, a group project that allows users to track their daily habits to lead towards a desired lifestyle',
+		isNew: true,
+	},
+	{
 		title: 'The Chronicler',
 		languages: 'MySQL, Handlebars, NodeJS',
 		liveUrl: 'https://thechronicler.herokuapp.com/',
@@ -15,7 +24,7 @@ export const projectData = [
 		gitHubUrl: 'https://github.com/awidener3/text-editor',
 		img: 'https://i.imgur.com/VpOo5hf.png',
 		alt: 'A preview of a text-editor, a PWA created with webpack',
-		isNew: true,
+		isNew: false,
 	},
 	{
 		title: 'Tech Blog',
