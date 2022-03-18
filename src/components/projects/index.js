@@ -7,7 +7,7 @@ export default function Projects() {
 		<div className="container-fluid">
 			<h2 className="pe-3 border-end text-end me-5">Projects</h2>
 
-			<div className="section-content container-fluid d-flex flex-wrap justify-content-center">
+			<div className="section-content container-fluid d-flex flex-wrap">
 				{projectData.map((project, index) => (
 					<ProjectCard project={project} key={index} />
 				))}
