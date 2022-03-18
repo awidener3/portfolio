@@ -1,6 +1,6 @@
 # Alex Widener Portfolio
 
-📌 [Link to Deployed Portfolio](https://awidener3.github.io/portfolio-react/)
+📌 [Link to Deployed Portfolio](https://awidener3.github.io/portfolio/)
 
 ## 🔎 Overview
 This portfolio is designed to highlight my skills and past projects. It also serves as documentation of my growth as a developer.
