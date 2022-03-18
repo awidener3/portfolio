@@ -1,7 +1,7 @@
 {
 	"name": "portfolio-react",
 	"version": "0.1.0",
-	"homepage": "https://awidener3.github.io/portfolio-react",
+	"homepage": "https://awidener3.github.io/portfolio",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.3.0",
