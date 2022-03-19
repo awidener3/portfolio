@@ -137,7 +137,7 @@ export default function Sidenav({ currentPage, handlePageChange }) {
 							className="p-2 mx-2 text-light"
 						/>
 					</a>
-					<p className="text-center">
+					<p className="text-center mb-5">
 						Have a great {days[date.getDay()]}!
 					</p>
 				</div>
