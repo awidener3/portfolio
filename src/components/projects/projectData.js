@@ -1,12 +1,21 @@
 export const projectData = [
 	{
+		title: 'DM Deck',
+		langauges: 'React, MongoDB, NodeJS',
+		liveUrl: 'https://dm-deck.herokuapp.com/',
+		gitHubUrl: 'https://github.com/awidener3/dm-deck',
+		img: 'https://i.imgur.com/NFI48ps.png',
+		alt: 'A preview of DM Deck, a personal project that allows Dungeon Masters of D&D to run battles efficiently.',
+		isNew: true,
+	},
+	{
 		title: 'Lyfe',
 		languages: 'MERN, GraphQL, Apollo, GSAP',
 		liveUrl: 'https://lyfe22.herokuapp.com/',
 		gitHubUrl: 'https://github.com/labrecquemegan/lyfe',
 		img: 'https://i.imgur.com/XKbP5py.png',
 		alt: 'A preview of Lyfe, a group project that allows users to track their daily habits to lead towards a desired lifestyle',
-		isNew: true,
+		isNew: false,
 	},
 	{
 		title: 'The Chronicler',
@@ -15,7 +24,7 @@ export const projectData = [
 		gitHubUrl: 'https://github.com/xndrbrgs/the_chronicler',
 		img: 'https://i.imgur.com/NUMopwj.png',
 		alt: 'A preview of The Chronicler, a group project that utilizes a database of 10,000 books that can be added and saved to a personal library',
-		isNew: true,
+		isNew: false,
 	},
 	{
 		title: 'Text Editor',
